@@ -4,7 +4,7 @@
 function formatGrammar(grammar) {
 	var result = '';
 	if (typeof(Item) != 'undefined') {
-		result += "<div align='center'><b>SLR Parsing - Enter the Grammar Production Set including the augmented grammar (Ex: E' -> E). Empty sentence(ε) = </b></div><br>";
+		result += "<div align='center'><b>SLR Parsing - Enter the Grammar Production Set including the augmented grammar (Ex: E' -> E). <br>(For ε write '')</b></div><br>";
 	}
 	result += "<table align='center'><tbody><tr>";
 	result += "<td><textarea class='form-control' rows='10' style=\"text-align: right; border: 0; color: black; background-color: #F0F0F0\" id=\"ruleIndices\" rows=\"25\" cols=\"3\" readonly=\"true\">";

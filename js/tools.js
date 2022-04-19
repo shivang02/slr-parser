@@ -9,7 +9,6 @@ function extend(objekt, zuper)
 function newObject(prototype) {
 	function F()
 	{
-		
 	}
 	F.prototype = prototype;
 	return new F();
@@ -121,13 +120,13 @@ function $element(id) {
 
 function assertEquality(expected, actual) {
 	if (expected != actual) {
-		throw 'Erro - Esperado: ' + expected + ' porém foi recebido: ' + actual;
+		throw 'Error: ' + expected + actual;
 	}
 }
 	
 function assertEquals(expected, actual) {
 	if (!expected.equals(actual)) {
-		throw 'Erro - Esperado: ' + expected + ' porém foi recebido: ' + actual;
+		throw 'Error: ' + expected + actual;
 	}
 }
 
