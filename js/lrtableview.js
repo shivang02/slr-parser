@@ -78,7 +78,7 @@ function formatAction(state, token, isInTable) {
 	
 function formatActionElement(actionElement) {
 	return actionElement.toString()
-			.replace("r0", "<span style=\"color: black;\">Action</span>")
+			.replace("r0", "<span style=\"color: black;\">Accept</span>")
 			.replace(/(s|\b)([0-9]+)/g, "$1<span style=\"color: black;\">$2</span>")
 			.replace(/r([0-9]+)/g, "r<sub style=\"color: black;\">$1</sub>");
 }
